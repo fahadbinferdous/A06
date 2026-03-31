@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import ToolsDetails from './components/ToolsDetails'
+import { ToastContainer } from 'react-toastify'
 
 const getChatgptJson =async()=>{
     const res=await fetch("/chatgpt.json")
@@ -21,7 +22,7 @@ function App() {
       <Suspense>
         <ToolsDetails chatgptPromise={chatgptPromise}/>
       </Suspense>
-      
+      <ToastContainer/>
     </>
   )
 }

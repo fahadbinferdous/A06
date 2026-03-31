@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ToolCards = ({tool,cart,setCart}) => {
     const tagStyles = {
@@ -9,7 +10,14 @@ const ToolCards = ({tool,cart,setCart}) => {
     const [isBought,setBuy]=useState(false)
     const handleBuyNow=()=>{
         setBuy(true)
+
+        const isFound=cart.find(item=>item.id===tool.id)
+        if(isFound){
+            toast.error('Product already added to cart') 
+            return}
+
         setCart([...cart,tool])
+        toast('Product added to cart')
     }
     return (
         <div className='border border-[#F2F2F2] rounded-lg p-5 space-y-5'>

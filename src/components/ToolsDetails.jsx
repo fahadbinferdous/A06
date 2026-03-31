@@ -6,7 +6,7 @@ const ToolsDetails = ({chatgptPromise}) => {
     const toolsData=use(chatgptPromise)
     const [activeTab,setActive]=useState('Products')
     const [cart,setCart]=useState([])
-    console.log(cart);
+    
     
     
     return (
