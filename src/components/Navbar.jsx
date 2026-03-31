@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='flex items-center justify-between gap-7'>
                 <img src="../../src/assets/shopping-cart.png" alt="" />
                 <p className=' text-[#101727]'>Login</p>
-                <button className='btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>Get Started</button>
+                <button className='btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full'>Get Started</button>
             </div>
         </nav>  
     );
