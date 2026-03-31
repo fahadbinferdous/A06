@@ -10,7 +10,7 @@ const ToolsDetails = ({chatgptPromise}) => {
     
     
     return (
-        <div className='container mx-auto flex flex-col items-center justify-center space-y-5'>
+        <div className='container mx-auto my-10 flex flex-col items-center justify-center space-y-5'>
             <h2 className='text-5xl font-bold '>Premium Digital Tools</h2>
             <p className='text-[#627382]'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
             {/* <div className='inline-block items-center justify-center border-2 border-[#F6F6F6] rounded-full'>
