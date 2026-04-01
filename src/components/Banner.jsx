@@ -2,7 +2,10 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='container mx-auto my-10 flex justify-between'>
+        <div className='container mx-auto my-10 px-5 md:flex md:flex-row-reverse justify-between'>
+            <div>
+                <img src="/src/assets/banner.png" alt="" />
+            </div>
             <div className='flex flex-col justify-center items-start space-y-3'>
                 <p className='badge bg-linear-to-r from-[#4f39f621] to-[#9614fa18] text-primary rounded-full'>
                     <img src="/src/assets/badge icon.png" alt="" />
@@ -19,9 +22,7 @@ const Banner = () => {
                     </button>
                 </div>           
             </div>
-            <div>
-                <img src="/src/assets/banner.png" alt="" />
-            </div>
+            
             
         </div>
     );

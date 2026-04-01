@@ -2,10 +2,10 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div className='container mx-auto my-10 space-y-5'>
+        <div className='container mx-auto my-10 px-5 space-y-5'>
             <h2 className='text-5xl font-bold text-center '>Simple, Transparent Pricing</h2>
             <p className='text-[#627382] text-center'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-            <div className='container mx-auto grid grid-cols-3 justify-between gap-5 items-stretch'>
+            <div className='container mx-auto grid md:grid-cols-3 gap-5 items-stretch'>
                 <div className='flex flex-col  space-y-5 bg-[#edeff3] rounded-xl p-10 relative'>
                       
                     <h4 className='text-2xl'>Starter</h4>

@@ -1,6 +1,7 @@
-import React, { use, useState } from 'react';
+import React, { Suspense, use, useState } from 'react';
 import ToolCards from './ToolCards';
 import Cart from './Cart';
+
 
 const ToolsDetails = ({chatgptPromise}) => {
     const toolsData=use(chatgptPromise)
@@ -10,7 +11,7 @@ const ToolsDetails = ({chatgptPromise}) => {
     
     
     return (
-        <div className='container mx-auto my-10 flex flex-col items-center justify-center space-y-5'>
+        <div className='container mx-auto my-10 px-5 flex flex-col items-center justify-center space-y-5'>
             <h2 className='text-5xl font-bold '>Premium Digital Tools</h2>
             <p className='text-[#627382]'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
             
@@ -20,9 +21,11 @@ const ToolsDetails = ({chatgptPromise}) => {
             </div>
             
             {activeTab==='Products' &&
-                <div className='grid grid-cols-3 gap-5'>
+                <div className='grid md:grid-cols-3 gap-5'>
                     {toolsData.map(tool=>
-                        <ToolCards key={tool.id} cart={cart} setCart={setCart} tool={tool}/>    
+                        
+                        <ToolCards key={tool.id} cart={cart} setCart={setCart} tool={tool}/> 
+                           
                     )}
                 </div>
             }

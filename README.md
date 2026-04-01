@@ -1,16 +1,38 @@
-# React + Vite
+## 🚀 DigiTools – AI Powered Productivity Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DigiTools** is a modern web-based platform that offers a curated collection of AI-powered digital tools designed to boost productivity and creativity. From content generation to design and development assistance, DigiTools brings multiple smart solutions into one unified interface.
 
-Currently, two official plugins are available:
+### ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🧠 **AI-Powered Tools** – Access a variety of intelligent tools for writing, coding, design, and more
+* 🛒 **Interactive Cart System** – Add and manage tools before purchasing
+* 🏷️ **Dynamic Badges** – Highlight tools with tags like *Popular*, *New*, and *Best Seller*
+* 🎨 **Modern UI/UX** – Clean, responsive design built with Tailwind CSS
+* ⚡ **Fast Performance** – Optimized for smooth user experience
+* 🔄 **Reusable Components** – Built with scalable and maintainable React components
 
-## React Compiler
+### 🧩 Available Tools
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* AI Resume Builder
+* AI Content Writer
+* AI Image Generator
+* AI Code Assistant
+* Social Media Scheduler
+* AI Video Editor
+* Logo Maker
+* Email Generator
 
-## Expanding the ESLint configuration
+### 💻 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React.js
+* **Styling:** Tailwind CSS
+* **State Management:** React Hooks
+* **Data Handling:** Dynamic JSON-based rendering
+
+### 🎯 Purpose
+
+The goal of DigiTools is to simplify access to powerful AI utilities in one place, helping users save time, improve workflow, and enhance creativity without needing multiple platforms.
+
+---
+
+💡 *This project is ideal for learning modern React patterns, component-based architecture, and UI design for SaaS platforms.*

@@ -1,12 +1,13 @@
 import React from 'react';
 
 const Navbar = () => {
+    
     return (
         
-        <nav className='container mx-auto flex items-center justify-between py-3'>
+        <nav className='container mx-auto flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-between py-3'>
             <h1 className='text-4xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h1>
             <div>
-                <ul className='flex items-center justify-between gap-7  text-[#101727]'>
+                <ul className='flex flex-wrap items-center justify-evenly md:justify-between gap-3 md:gap-7  text-[#101727]'>
                     <li>Products</li>
                     <li>Features</li>
                     <li>Pricing</li>

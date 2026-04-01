@@ -1,5 +1,6 @@
 import React from 'react';
 import { toast } from 'react-toastify';
+import Navbar from './Navbar';
 
 const Cart = ({cart,setCart}) => {
     const totalPrice= cart.reduce((sum,tool)=>sum+tool.price,0)
@@ -41,7 +42,7 @@ const Cart = ({cart,setCart}) => {
             }
 
             
-            
+
         </div>
 
     );

@@ -26,9 +26,10 @@ function App() {
       <Navbar/>
       <Banner/>
       <Stat/>
-      <Suspense>
+      <Suspense fallback={<span className="loading loading-spinner loading-xl flex justify-center items-center h-screen"></span>}>
         <ToolsDetails chatgptPromise={chatgptPromise}/>
       </Suspense>
+      
       <GetStarted/>
       <Pricing/>
       <Footer/>

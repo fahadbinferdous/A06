@@ -2,10 +2,10 @@ import React from 'react';
 
 const GetStarted = () => {
     return (
-        <div className='mx-auto my-10 py-10 bg-[#edeff3] space-y-5'>
+        <div className='mx-auto my-10 py-10 px-5 bg-[#edeff3] space-y-5'>
             <h2 className='text-5xl font-bold text-center '>Get Started in 3 Steps</h2>
             <p className='text-[#627382] text-center'>Start using premium digital tools in minutes, not hours.</p>
-            <div className='container mx-auto grid grid-cols-3 justify-between gap-5'>
+            <div className='container mx-auto grid md:grid-cols-3 justify-between gap-5'>
                 <div className='flex flex-col items-center justify-center space-y-5 bg-white rounded-xl p-10 relative'>
                     <p className='badge bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-1 rounded-[50%] absolute top-3 right-3'>01</p>
                     <img src="../../src/assets/user.png" alt="" className='bg-linear-to-r from-[#4f39f62f] to-[#9614fa2f] p-3 rounded-[50%]' />

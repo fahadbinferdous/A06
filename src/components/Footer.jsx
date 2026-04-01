@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer sm:footer-horizontal bg-[#101727] text-neutral-content py-10 px-48">
+            <footer className="footer sm:footer-horizontal bg-[#101727] text-neutral-content py-10 px-5 md:px-48">
   <aside>
         <h1 className='text-4xl font-bold'>
             DigiTools
@@ -51,8 +51,8 @@ const Footer = () => {
   </nav>
 </footer>
 
-<footer className="footer sm:footer-horizontal bg-[#101727] text-neutral-content items-center p-4 px-48 border-t border-[#ffffff31]">
-  <aside className="grid-flow-col items-center">
+<footer className="footer sm:footer-horizontal bg-[#101727] text-neutral-content items-center p-4 md:px-48 border-t border-[#ffffff31]">
+  <aside className="grid-flow-col items-center ">
 
     <p >Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
