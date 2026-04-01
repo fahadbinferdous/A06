@@ -1,10 +1,12 @@
 import React from 'react';
+import Play from "/src/assets/Play.png"
+import BannerImg from "/src/assets/banner.png"
 
 const Banner = () => {
     return (
         <div className='container mx-auto my-10 px-5 md:flex md:flex-row-reverse justify-between'>
             <div>
-                <img src="/src/assets/banner.png" alt="" />
+                <img src={BannerImg} alt="" />
             </div>
             <div className='flex flex-col justify-center items-start space-y-3'>
                 <p className='badge bg-linear-to-r from-[#4f39f621] to-[#9614fa18] text-primary rounded-full'>
@@ -17,7 +19,7 @@ const Banner = () => {
                 <div className='space-x-2'>
                     <button className='btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full'>Explore Products</button>
                     <button className='btn btn-primary btn-outline  rounded-full'>
-                        <img src="/src/assets/Play.png" alt="" />
+                        <img src={Play} alt="" />
                         Watch Demo
                     </button>
                 </div>           
