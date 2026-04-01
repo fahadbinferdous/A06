@@ -13,7 +13,7 @@
       "Export to PDF",
       "AI content suggestions"
     ],
-    "icon": "FileText"
+    "icon": "/public/images/portfolio.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Multi-language support",
       "Tone customization"
     ],
-    "icon": "PenTool"
+    "icon": "/public/images/writing_2327400 1.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Fast rendering",
       "Download in multiple formats"
     ],
-    "icon": "Image"
+    "icon": "/public/images/design-tool.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Analytics dashboard",
       "Content calendar"
     ],
-    "icon": "Calendar"
+    "icon": "/public/images/social-media.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Multi-language support",
       "Real-time suggestions"
     ],
-    "icon": "Code"
+    "icon": "/public/images/operation.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Brand kit generation",
       "Editable designs"
     ],
-    "icon": "Feather"
+    "icon": "/public/images/design-tool.png"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Transitions & effects",
       "HD export"
     ],
-    "icon": "Video"
+    "icon": "/public/images/design-tool.png"
   },
   {
     "id": 8,
@@ -125,6 +125,6 @@
       "Grammar correction",
       "Quick copy & send"
     ],
-    "icon": "Mail"
+    "icon": "/public/images/operation.png"
   }
 ]

@@ -6,6 +6,8 @@ import { ToastContainer } from 'react-toastify'
 import Banner from './components/Banner'
 import Stat from './components/Stat'
 import Footer from './components/Footer'
+import GetStarted from './components/GetStarted'
+import Pricing from './components/Pricing'
 
 const getChatgptJson =async()=>{
     const res=await fetch("/chatgpt.json")
@@ -27,6 +29,8 @@ function App() {
       <Suspense>
         <ToolsDetails chatgptPromise={chatgptPromise}/>
       </Suspense>
+      <GetStarted/>
+      <Pricing/>
       <Footer/>
       <ToastContainer/>
     </>

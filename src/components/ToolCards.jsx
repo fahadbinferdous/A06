@@ -20,12 +20,13 @@ const ToolCards = ({tool,cart,setCart}) => {
         toast('Product added to cart')
     }
     return (
-        <div className='border border-[#F2F2F2] rounded-lg p-5 space-y-5'>
+        <div className='border border-[#F2F2F2] rounded-3xl p-5 space-y-5'>
             <div className="flex justify-end">
                 <p className={`${tagStyles[tool.tagType] || "badge"} badge-soft`}>
                     {tool.tag}
                 </p>
             </div>
+            <img src={tool.icon} alt="" />
             <h4 className='text-xl font-bold '>{tool.name}</h4>
             <p className='text-[#627382]'>{tool.description}</p>
             <p><span className='text-xl font-bold'>${tool.price}</span>/{tool.period}</p>
